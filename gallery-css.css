@@ -1,0 +1,18 @@
+body{background-image: url(background.jpg);}
+#header{ background-image: url(header3.jpg);	
+	background-repeat:no-repeat;
+	height:250px;
+	width:1249px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 6px solid #ffffff;
+	}
+table {margin-left:auto;
+	 margin-right: auto;
+	 margin-top: 50px;}
+#gallnavi{text-decoration:none;
+		  color:#00E600;
+		  font-size: 40px;
+		  font-family: Arial, sans-serif;}
+#gallnavi:visited{color:#00E600;
+				text-decoration:none;}

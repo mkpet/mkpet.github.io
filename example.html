@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Customer Form</title>
+<meta charset="utf-8">
+<style>
+table {background-color: #eaeaea;
+	   border-style: none;
+	   width: 40em;
+	   font-family: Arial, sans-serif;}
+</style>
+</head>
+<body>
+<h1>Customer Form</h1>
+<form method="post">
+<table cellpadding ="10">
+<tr><td>First Name</td> &emsp;<td><input type="text" size="50" maxlength="20"></td></tr>
+<tr><td>Last Name</td>  &emsp;<td><input type="text" size="50" maxlength="20"></td></tr>
+<tr><td>Email Address</td> <td><input type="email" name="email" size="50" maxlength="20"></td></tr>
+<tr><td>Password</td><td><input type="password" size="50" maxlength="20"></td></tr>
+<tr><td>Gender</td><td><input type="radio" name="gender">Male &emsp;<input type="radio" name="gender" checked>Female</td></tr>
+<tr><td>Hobby</td><td><input type="checkbox">Reading &emsp; &emsp;<input type="checkbox">Swimming&emsp; &emsp;<input type="checkbox" checked>Badminton</td></tr>
+<tr><td>My favourite car</td>
+<td><select>
+<option>Axia 1.0</option>
+<option>Axia SE 1.0</option>
+<option>Axia Advance 1.0</option>
+<option>Myvi1.3</option>
+<option>Myvi SE 1.3</option>
+</select></td>
+<tr><td>Comments</td>
+<td><textarea rows="4" cols="30" placeholder="Sila memberikan komen anda kat ruang sini"></textarea></td></tr>
+<tr><td>URL</td><td><input type="url"></td></tr>
+<tr><td>&emsp;</td><td><input type="submit" value="SUBMIT">&emsp;&emsp;<input type="reset" value="RESET"></td></tr>
+</table>
+</form>
+</body>
+</html>
