@@ -11,8 +11,7 @@ body{background-image: url(background.jpg);}
 #productdescrp { padding-top: 0px;
 				padding-left: 50px;
 				font-size: 30px;
-				font-family: Arial, sans-serif;
-			 }
+				font-family: Arial, sans-serif;}
 
 #buy { border: 0px;
 	   width:275px;
@@ -75,10 +74,12 @@ body{background-image: url(background.jpg);}
 		 
 .navi {padding-top: 30px;
 	   margin-right:auto;
-	   margin-left:auto;
-	   border-color:#808080;
-	   }
-.navi img:hover {border-color: #ffffff;}
+	   margin-left:auto;}
+.navi img:hover {color:#ffffff;
+			   border:3px solid #ffffff;}
+.navi img:visited {color:none;
+				border:none;}
+.navi img:hover { border-color: #ffffff;}
 	  
 h1 {margin-top:20px;
 	font-family: Arial, sans-serif;

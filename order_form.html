@@ -10,9 +10,8 @@ body{background-image: url(background.jpg);}
 	width:1249px;
 	margin-left:auto;
 	margin-right:auto;
-	border: 6px solid #ffffff;
-	}
-table{margin-left: auto;
+	border: 6px solid #ffffff;}
+.form{margin-left: auto;
 	  margin-right: auto;
 	  font-family: Arial, sans-serif;}
 h1{margin-left: auto;
@@ -28,6 +27,14 @@ h1{margin-left: auto;
     text-align: center;
 	font-family: Arial, sans-serif;}
 #instructions{font-size: .75em;}
+.navi {padding-top: 30px;
+	   margin-right:auto;
+	   margin-left:auto;}
+.navi img:hover {color:#ffffff;
+			   border:3px solid #ffffff;}
+.navi img:visited {color:none;
+				border:none;}
+.navi img:hover { border-color: #ffffff;}
 </style>
 <script language="JavaScript">
 function CheckForm(){
@@ -58,11 +65,22 @@ if (document.form.email.value!=""){
 
 </script>
 <div class="header"></div>
+<table class = "navi" align="center">
+<tr>
+	<td><a href = "index.html"><img src = "buttons/menu_home.jpg"></a></td>
+	<td><a href = "aboutus.html"><img src = "buttons/menu_aboutus.jpg"></a></td>
+	<td><a href = "pets.html"><img src = "buttons/menu_pets.jpg"></a></td>
+	<td><a href = "guides.html"><img src = "buttons/menu_guides.jpg"></a></td>
+	<td><a href = "vision.html"><img src = "buttons/menu_vision.jpg"></a></td>
+	<td><a href = "mission.html"><img src = "buttons/menu_mission.jpg"></a></td>
+	<td><a href = "ceo.html"><img src = "buttons/menu_ceo.jpg"></a></td>
+</tr>
+</table>
 <body>
 <h1>Order Form</h1>
 <h3>Fill in the form and we will contact you soon to arrange the delivery method and date!</h3>
 <form name="form"method="post"action="" onSubmit="return CheckForm()">
-<table cellpadding="10">
+<table cellpadding="10" class="form">
 <tr>
 	<td>First Name:* &emsp;</td> 
 	<td><input type="text"size="50"maxlength="25" name="firstn"></td>
