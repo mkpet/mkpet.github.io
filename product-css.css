@@ -25,7 +25,7 @@ body{background-image: url(background.jpg);}
 		-webkit-border-radius:4px;
 		-moz-border-radius:4px; 
 		border-radius: 4px; 
-		font:50px Arial, Helvetica, sans-serif; 
+		font:20px Arial, Helvetica, sans-serif; 
 		font-weight:bold; 
 		color:#ffffff; 
 		background-color:#28f039; 
@@ -44,7 +44,7 @@ body{background-image: url(background.jpg);}
 				-webkit-border-radius:4px;
 				-moz-border-radius:4px; 
 				border-radius: 4px; 
-				font:50px Arial, Helvetica, sans-serif; 
+				font:20px Arial, Helvetica, sans-serif; 
 				font-weight:bold; 
 				color:#ffffff; 
 				background-color:#1b5c33; 
